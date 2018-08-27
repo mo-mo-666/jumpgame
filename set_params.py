@@ -98,9 +98,13 @@ CH_LEVEL = [10, 30, 50, 80]
 # ==============================================================================
 # set the movement distance when the character is jumping and falling
 #
-# MOVE_UP(default = -20): a negative number
-# MOVE_DOWN:(default = 10) a positive number
+# MOVE_UP:  when the character jumps up. (a negative number)
+# MOVE_DOWN: when the character falls down (a positive number)
 # Changing this params is NOT recommended.
+#
+#  default values:
+#     MOVE_UP   = -SCREEN_HEIGHT // 50
+#     MOVE_DOWN =  SCREEN_HEIGHT // 100
 # ==============================================================================
-MOVE_UP   = -20
-MOVE_DOWN =  10
+MOVE_UP   = -SCREEN_HEIGHT // 35
+MOVE_DOWN =  SCREEN_HEIGHT // 70
