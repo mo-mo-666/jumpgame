@@ -7,8 +7,8 @@ Jump and crouch to avoid blocks!
 ## How to play
 You have to jump or crouch the character to avoid the blocks coming from the right.  
 The game is over when the character goes to the left and disappears from the screen.
-- ↑  key: the character **jumps**
-- ↓  key: the character **crouches**
+- ↑  key: **jump**
+- ↓  key: **crouch**
 ## View
 
 ## Settings
