@@ -1,14 +1,14 @@
-# Jump Game
+# Jump Game!
 Jump and crouch to avoid blocks!
 
 ## Requirements
 - Python3
-- Pygame (You can install by the command: `pip install pygame`.)
+- Pygame (You can install by the following command: `pip install pygame`.)
 ## How to play
-You have to make the character jump and crouch to avoid coming blocks.  
+You have to jump or crouch the character to avoid the blocks coming from the right.  
 The game is over when the character goes to the left and disappears from the screen.
-- ↑  key: the character *jumps*
-- ↓  key: the character *crouches*
+- ↑  key: the character **jumps**
+- ↓  key: the character **crouches**
 ## View
 
 ## Settings
