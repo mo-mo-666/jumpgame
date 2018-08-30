@@ -45,7 +45,7 @@ class Widget:
                 self.update_character()
                 self.update_counter()
                 pg.display.update()
-                 # flame rate maximum
+                # flame rate maximum
                 self.clock.tick(60)
             else:
                 self.state = 'gameover'
@@ -154,7 +154,7 @@ class Blocks:
 
     def set_param(self, level):
         self.move_x = level['MOVE_X']
-        self.block_frequency = level['BLOCK_FRECENCY']
+        self.block_frequency = level['BLOCK_FREQUENCY']
 
     def update(self):
         if not self.blocklist:
@@ -172,7 +172,7 @@ class Blocks:
             self.blocklist = blocklist
             self.last_x += self.move_x
 
-            if self.last_x < SCREEN_WIDTH - 100:
+            if self.last_x < SCREEN_WIDTH - B_MIN_DISTANCE:
                 boolean = random.choices(['lower', 'upper', False],
                                          cum_weights=self.block_frequency)[0]
                 if boolean == 'lower':
@@ -277,7 +277,7 @@ class Character:
 def main():
     pg.init()
     pg.display.set_caption("Jump!")
-    app = Widget()
+    Widget()
     pg.quit()
 
 
