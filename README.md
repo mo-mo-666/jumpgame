@@ -10,6 +10,7 @@ The game is over when the character goes to the left and disappears from the scr
 - ↑  key: **jump**
 - ↓  key: **crouch**
 ## View
+![pic1](https://github.com/mo-mo-666/jumpgame/blob/images/screen_shot/pic1.PNG)
 
 ## Settings
 You can customize the level, the block's color, the screen size etc... by editing `set_params.py`.
